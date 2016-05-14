@@ -34,4 +34,7 @@ print 'After set,S2 spcore %s:' % S2score
 print "%s" % type(ex)
 print "%s" % type(S1)
 
+alldetail=dir(ex)
+print alldetail
+print ex.__hash__()
 		
